@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js" defer></script>
+    <title>AppCliente</title>
+</head>
+
+<body>
+    <h1>AppCliente - Aplicativo para cadastro de clientes.</h1>
+    <div>
+        <h2>Novo Cliente</h2>
+        <form id="form-cliente">
+            <input type="text" id="nome" placeholder="Digite o nome do cliente">
+            <input type="text" id="idade" placeholder="Digite a idade do cliente">
+            <input type="text" id="sexo" placeholder="Digite o sexo do cliente (F|M)">
+            <input type="submit" value="Gravar...">
+        </form>
+    </div>
+    <div>
+        <h2>Clientes Cadastrados</h2>
+        <ul id="lista-clientes">
+        </ul>
+    </div>
+
+</body>
+
+</html>

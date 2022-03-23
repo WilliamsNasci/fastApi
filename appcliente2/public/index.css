@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(35, 39, 100);
+    color: #fff;
+    font: optional;
+}
+
+input {
+    padding: .8rem;
+    display: block;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+}
